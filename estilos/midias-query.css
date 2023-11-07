@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/* DESKTOP 
+
+Celular - até 448px
+Tablet - 448 até  1024px
+Tela Grande - 1024px até  1728px 
+
+*/
+
+
+
+@media print { 
+    
+}  
+
+@media screen and (min-width: 1024px) {
+    * {
+        background-color: blueviolet;
+    }
+    
+}
+
+@media screen and (min-width: 1728px) {
+    * {
+        background-color: darkgoldenrod;
+    }
+}

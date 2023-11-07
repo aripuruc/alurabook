@@ -1,0 +1,32 @@
+.banner {
+    background-color: aqua;
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 1.2rem;
+    padding: 24px;
+}
+
+p {
+    padding: 8px 32px;
+}
+#ibuscar {
+
+    width: 70%;
+    padding: 0.5rem;
+    border-radius: 24px;
+    background-color: transparent;
+    color: white;
+    font-size: medium;
+    border-color: white;
+}
+
+
+::placeholder {
+    color: white;
+    font-size: medium;
+}    
