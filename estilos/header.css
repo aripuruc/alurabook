@@ -8,7 +8,8 @@
 .container {
     display: flex;
     align-items: center;
-    padding: 0rem 0.8rem;
+    padding: 1rem;
+
 }
 
 .cabecalho__menu {
@@ -18,9 +19,13 @@
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
-
 }
 
-.container__imagem__grupo1 {
-    padding: 1.5rem 1rem;
+.cabecalho__menu:hover {
+    background-color: blue;
+}
+
+
+.container__imagem {
+    padding: 0.5rem;
 }
