@@ -8,7 +8,7 @@
 .container {
     display: flex;
     align-items: center;
-    padding: 1rem;
+    padding: 0.5rem;
 
 }
 
@@ -29,3 +29,26 @@
 .container__imagem {
     padding: 0.5rem;
 }
+
+menu {
+    background-color: white;
+    display: none;
+    width: 70vw;
+    padding-left: 24px;
+}
+
+li {
+    padding: 16px;
+}
+
+#lista__titulo {
+    padding: 16px;
+    color: var(--cor-principal);
+    font-weight: bold;
+}
+
+.cabecalho__categorias__itens {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
