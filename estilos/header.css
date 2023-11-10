@@ -3,6 +3,7 @@
     justify-content: space-between;
     align-items: center;
     background-color: white;
+    position: relative;
 }
 
 .container {
@@ -21,16 +22,13 @@
     background-position: center;
 }
 
-.cabecalho__menu:hover {
-    background-color: blue;
-}
-
-
 .container__imagem {
     padding: 0.5rem;
 }
 
 menu {
+    position: absolute;
+    top: 100%;
     background-color: white;
     display: none;
     width: 70vw;

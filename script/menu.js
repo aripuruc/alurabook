@@ -1,7 +1,9 @@
 function clickBurguer() {
-    if (imenu.style.display == 'none') {
-        imenu.style.display = 'block';
+var idmenu = document.getElementById('imenu');
+
+    if (idmenu.style.display === 'none' || idmenu.style.display === '')  {
+        idmenu.style.display = 'block';
     } else {
-        imenu.style.display = 'none';
+        idmenu.style.display = 'none';
     }
 }
