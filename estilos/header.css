@@ -1,7 +1,7 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-content: center; 
     background-color: white;
     position: relative;
 }
@@ -9,29 +9,30 @@
 .container {
     display: flex;
     align-items: center;
-    padding: 0.5rem;
-
+    padding: 0px 16px;
 }
 
 .cabecalho__menu {
     width: 24px;
     height: 24px;
-    background-image: url("../assets/img/icones/Menuu.svg");
+    background-image: url("../assets/img/icones/Menu.svg");
     display: inline-block;
     background-repeat: no-repeat;
     background-position: center;
+   
 }
 
 .container__imagem {
     padding: 0.5rem;
 }
 
-menu {
+#imenu {
     position: absolute;
     top: 100%;
+    left: 0;
     background-color: white;
     display: none;
-    width: 70vw;
+    width: 60vw;
     padding-left: 24px;
 }
 

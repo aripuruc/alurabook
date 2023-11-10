@@ -3,9 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="shortcut icon" href="assets/img/icones/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/reset.css">
+    <link rel="stylesheet" href="estilos/style.css" media="all">
+    <title>BUSINESS</title>
 </head>
 <body>
+
+    <header class="cabecalho">
+        <div class="container">
+           <span class="cabecalho__menu container__imagem" onclick="clickBurguer()"></span>
+           <nav id="imenu">
+              <ul class="cabecalho__lista">
+                 <li id="lista__titulo">Categorias</li>
+                 <li><a href="programacao.html" class="cabecalho__categorias__itens">PROGRAMAÇÃO</a></li>
+                 <li><a href="frontend.html" class="cabecalho__categorias__itens">FRONT-END</a></li>
+                 <li><a href="infra.html" class="cabecalho__categorias__itens">INFRAESTRUTURA</a></li>
+                 <li><a href="business.html" class="cabecalho__categorias__itens">BUSINESS</a></li>
+                 <li><a href="design.html" class="cabecalho__categorias__itens">DESIGN & UX</a></li>
+              </ul>
+           </nav>
+     
+           <a href="index.html"><img src="assets/img/icones/Logo.svg" alt="Logo do AluraBook" class="container__imagem"></a>
+        </div>
+
+        <div class="container">
+           <a href="#"><img src="assets/img/icones/Favoritos.svg" alt="Meu Favoritos" class="container__imagem"></a>
+           <a href="#"><img src="assets/img/icones/Compras.svg" alt="Meu Carrinho de Compras" class="container__imagem"></a>
+           <a href="#"><img src="assets/img/icones/Usuário.svg" alt="Meu Perfil" class="container__imagem"></a>
+
+        </div>
+
+  </header>
+
     <h1>BUSINESS</h1>
+
+    <script src="script/menu.js"></script>
 </body>
 </html>
