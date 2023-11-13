@@ -1,5 +1,5 @@
 .banner {
-    background-image: linear-gradient(to right, var(--cor-degrade1), var(--cor-degrade2));
+    background: var(--cor-degrade);
     text-align: center;
     color: var(--cor-branco);
     padding: 2.5em 2em;

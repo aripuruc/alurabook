@@ -9,8 +9,7 @@
     --cor-de-fundo: #EBECEE;
     --cor-principal: #EB9B00;
     --cor-secundaria: #002F52;
-    --cor-degrade1: #002F52;
-    --cor-degrade2: #326589; 
+    --cor-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --cor-fonte-padrao: #000000;
     --cor-branco: #FFF;
 
