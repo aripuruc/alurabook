@@ -24,6 +24,7 @@ p {
     font-size: 14px;
     width: 100%;
     border: 1px var(--cor-branco) solid;
+    font-family: 'Poppins', sans-serif;
 }
 
 
