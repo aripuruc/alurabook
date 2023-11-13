@@ -1,0 +1,14 @@
+.carrossel__titulo {
+    text-transform: uppercase;
+    color: var(--cor-principal);
+    text-align: center;
+    font-weight: bold;
+    background-color: var(--cor-branco);
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 8px;
+}
+
+.carrossel__card {
+    
+}
