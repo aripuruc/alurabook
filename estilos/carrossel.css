@@ -1,6 +1,28 @@
 .carrossel {
-    
+    overflow: hidden;
 }
+
+.carrossel-conteiner {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.carrossel-item {
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.carrossel > input:nth-child(1):checked ~ .carrossel-conteiner {
+    transform: translateX(0%);
+}
+.carrossel > input:nth-child(2):checked ~ .carrossel-conteiner {
+    transform: translateX(-100%);
+}
+.carrossel > input:nth-child(3):checked ~ .carrossel-conteiner {
+    transform: translateX(-200%);
+}
+
 .carrossel__titulo {
     text-transform: uppercase;
     color: var(--cor-principal);
