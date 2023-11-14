@@ -1,3 +1,6 @@
+.carrossel {
+    
+}
 .carrossel__titulo {
     text-transform: uppercase;
     color: var(--cor-principal);
@@ -10,5 +13,40 @@
 }
 
 .carrossel__card {
+    display: flex;
+    background-color: var(--cor-branco);
+    width: 85%;
+    margin: auto;
+    border-radius: 24px;
+    padding: 16px;
+    gap: 16px;
+ 
     
+}
+.carrossel__card__g1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.carrossel__card__g1__titulo {
+    color: var(--cor-principal);
+    font-weight: bold;
+}
+
+.carrossel__card__g1__subtitulo {
+    font-size: 18px;
+    font-weight: bold;
+    color: var(--cor-secundaria);
+    padding-top: 8px;
+}
+
+.carrossel__card__imagens {
+    padding: 8px
+}
+
+.card__btn {
+    padding: 12px;
+    width: 100%;
+    margin-top: 35px;
 }
