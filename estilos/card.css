@@ -7,11 +7,14 @@
     padding: 16px;
     gap: 16px; 
     margin-bottom: 20px;
+    
+    
 
 }
 .card__g1 {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 .card__g1__titulo {
@@ -52,7 +55,7 @@
 .card__btn {
     padding: 12px;
     width: 100%;
-    margin-top: 35px;
+    margin-top: 20px;
     background-color: var(--cor-principal);
     color: var(--cor-branco);
     font-weight: 700;

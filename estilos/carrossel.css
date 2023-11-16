@@ -17,13 +17,13 @@
     flex: 0 0 auto;
 }
 
-.carrossel > input:nth-child(1):checked ~ .carrossel-conteiner {
+.carrossel > .inputs > input:nth-child(1):checked ~ .carrossel-conteiner {
     transform: translateX(0%);
 }
-.carrossel > input:nth-child(2):checked ~ .carrossel-conteiner {
+.carrossel > .inputs > input:nth-child(2):checked ~ .carrossel-conteiner {
     transform: translateX(-100%);
 }
-.carrossel > input:nth-child(3):checked ~ .carrossel-conteiner {
+.carrossel > .inputs > input:nth-child(3):checked ~ .carrossel-conteiner {
     transform: translateX(-200%);
 }
 
