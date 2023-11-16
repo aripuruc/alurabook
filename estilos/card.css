@@ -1,11 +1,13 @@
 .card {
     display: flex;
     background-color: var(--cor-branco);
-    width: 70%;
+    width: 85%;
     margin: auto;
-    border-radius: 24px;
+    border-radius: 10px;
     padding: 16px;
     gap: 16px; 
+    margin-bottom: 20px;
+
 }
 .card__g1 {
     display: flex;
@@ -17,11 +19,30 @@
     font-weight: bold;
 }
 
+.inputs {
+    padding-top: 8px;
+}
+
 .card__g1__subtitulo {
     font-size: 18px;
     font-weight: bold;
     color: var(--cor-secundaria);
     padding-top: 8px;
+}
+
+.card__g1__sub{
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+.card__g1__texto{
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.card__g1__autor{
+    font-size: 18px;
+    font: 700;
 }
 
 .card__imagens {
@@ -32,4 +53,8 @@
     padding: 12px;
     width: 100%;
     margin-top: 35px;
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+    font-weight: 700;
+    font-family:  'Poppins', sans-serif;
 }

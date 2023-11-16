@@ -1,0 +1,22 @@
+.topicos {
+    background-color: var(--cor-branco);
+    padding-top: 16px;
+    display: flex;
+}
+
+.topicos__titulo{
+    font-weight: 200;
+    padding-bottom: 32px;
+    
+}
+
+.top__btn {
+    padding: 12px;
+    background-color: var(--cor-principal);
+    color: var(--cor-branco);
+    font-weight: 700;
+    font-family:  'Poppins', sans-serif;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    
+}

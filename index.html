@@ -42,9 +42,11 @@
       </section>
       <section class="carrossel">
          <h2 class="carrossel__titulo">Últimos lançamentos</h2>
-         <input type="radio" name="estante" id="ilivros" checked>
-         <input type="radio" name="estante" id="ilivros">
-         <input type="radio" name="estante" id="ilivros">
+         <div class="inputs">
+            <input type="radio" name="estante" id="ilivros" checked>
+            <input type="radio" name="estante" id="ilivros">
+            <input type="radio" name="estante" id="ilivros">
+         </div>
          <div class="carrossel-conteiner">
             <div class="carrossel-item">
                <img src="assets/img/books/ApacheKafka.png" alt="capa do livro ApacheKafka">
@@ -61,7 +63,7 @@
          <div class="card__g1">
             <h3 class="card__g1__titulo">Talvez você também se interesse por...</h3>
             <h4 class="card__g1__subtitulo">Angular 11 e Firebase</h4>
-            <p>Construindo uma aplicação integrada com a plataforma do Google.</p>
+            <p class="card__g1__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
             <div class="card__imagens">
                <img src="assets/img/icones/Favoritos.svg" alt="">
                <img src="assets/img/icones/Compras.svg" alt="">
@@ -71,6 +73,59 @@
             <img src="assets/img/angular/Angular-capa.png" alt="">
             <input type="button" value="Saiba mais" class="card__btn">
          </div>
+      </section>
+      <section class="carrossel">
+         <h2 class="carrossel__titulo"> MAIS VENDIDOS </h2>
+         <div class="inputs">
+            <input type="radio" name="estante" id="ilivros" checked>
+            <input type="radio" name="estante" id="ilivros">
+            <input type="radio" name="estante" id="ilivros">
+         </div>
+         <div class="carrossel-conteiner">
+            <div class="carrossel-item">
+               <img src="assets/img/books/ApacheKafka.png" alt="capa do livro ApacheKafka">
+            </div>
+            <div class="carrossel-item">
+               <img src="assets/img/books/Arquitetura.png" alt="capa do livro Arquitetura">
+            </div>
+            <div class="carrossel-item">
+               <img src="assets/img/books/Construct2.png" alt="capa do livro Construct2">
+            </div>
+         </div>
+      </section>
+      <section class="card">
+         <div class="card__g1">
+            <h3 class="card__g1__titulo">******</h3>
+            <h4 class="card__g1__sub">Autora do Mês</h4>
+            <h4 class="card__g1__subtitulo">Juliana Agarikov</h4>
+            <p class="card__g1__texto">Analista de sistemas e escritora, Juliana é especialista em Front-End. </p>
+            <div class="card__imagens">
+               <img src="assets/img/icones/Favoritos.svg" alt="">
+               <img src="assets/img/icones/Compras.svg" alt="">
+            </div>
+         </div>
+         <div>
+            <img src="assets/img/angular/Perfil-escritora 1.png" alt="">
+            <input type="button" value="Saiba mais" class="card__btn">
+         </div>
+      </section>
+      <section class="topicos">
+         <div class="banner">
+            <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
+               <input type="button" value="Android" class="top__btn">
+               <input type="button" value="Marketing Digital" class="top__btn">
+               <input type="button" value="Agile" class="top__btn">
+               <input type="button" value="Startups" class="top__btn">
+               <input type="button" value="HTML & CSS" class="top__btn">
+               <input type="button" value="Python" class="top__btn">
+               <input type="button" value="OO" class="top__btn">
+               <input type="button" value="Java" class="top__btn">
+         </div>
+      </section>
+      <section class="newsletter">
+         <h2>Fique por dentro das novidades!</h2>
+         <p>Atualizações de e-books, novos livros, promoções e outros.</p>
+         <input type="email" name="email" id="iemail">
       </section>
    </main>
 
